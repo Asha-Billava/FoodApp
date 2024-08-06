@@ -1,0 +1,89 @@
+.RecentOrderDiv {
+    min-height: 190px;
+        max-height: 350px;
+    width: auto;
+    overflow: auto;
+
+}
+
+/* Scrollbar Track */
+.RecentOrderDiv::-webkit-scrollbar {
+    width: 6px;
+    height: 5px !important;
+}
+
+/* Scrollbar Thumb */
+.RecentOrderDiv::-webkit-scrollbar-thumb {
+    background: #a9a9ae;
+    border-radius: 10px;
+}
+
+/* Scrollbar Thumb Hover */
+.RecentOrderDiv::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+
+.orderTab{
+    /* height: 100%; */
+    width: 100%;
+    overflow: auto;
+    
+}
+
+.orderTab tr{
+    border-bottom: 1px solid grey;
+}
+.orderTab th{
+    padding: 0px 16px;
+}
+
+.orderTab tr th {
+    position: sticky !important;
+    top: 0;
+    font-size: 13px;
+    line-height: 45px;
+    background-color: #1f2029;
+    z-index: 1;
+}
+
+.orderTab tr td {
+    padding: 8px 16px;
+    height: 50px;
+    color: white;
+    word-break: break-all;
+    font-size: 13px;
+}
+
+
+
+.Userdiv {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.userImg {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.status{
+backdrop-filter: blur(10px);
+display: inline-block;
+    border-radius: 10px;
+        font-size: 13px;
+        background-color: #145446;
+        color: #259a79;
+        width: 75px;
+        padding: 1px;
+        text-align: center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .RecentOrderDiv {
+        max-height: 250px;
+    }
+}

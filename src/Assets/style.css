@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  /* font-family: "Roboto Regular" !important; */
+  background: black 0% 0% no-repeat padding-box;
+  /* background: goldenrod; */
+  overflow-y: hidden;
+}
+div:not(.Toastify div) {
+  animation: fade 0.5s;
+}
+
+.MainContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  background-color: black;
+}
+
+.MainContainer::-webkit-scrollbar {
+  display: none;
+}

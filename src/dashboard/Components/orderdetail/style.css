@@ -1,0 +1,24 @@
+.orderdetail p{
+    font-size: 12px;
+}
+.orderIcon{
+    background: green;
+         width: 36px;
+        backdrop-filter: blur(10px);
+        border-radius: 5px;
+        padding: 6px;
+        text-align: center;
+        display: inline-block;
+}
+
+.ordercount{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+
+.ordercount span{
+    font-size: 13px;
+    color: green;
+}

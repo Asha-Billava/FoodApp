@@ -1,0 +1,13 @@
+.Titleheader {
+  font-size: 28px;
+  margin-bottom: 13px;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+  width: fit-content;
+  height: fit-content !important;
+}
+
+.Titleheader p {
+  margin: 0;
+}
